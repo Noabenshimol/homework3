@@ -1,0 +1,176 @@
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(String[] args)
+  {
+    final Scanner scam = new Scanner(System.in);
+    System.out.println("enter namber 1:");
+    final int namber=scam.nextInt();
+    if (namber>0)
+    {
+      System.out.println("positiv");
+    }
+    else
+    {
+      System.out.println("negative");
+    }
+  }
+} */
+
+
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(String[] args)
+  {
+    final Scanner scam = new Scanner(System.in);
+    System.out.println("enter namber 1:");
+    final int num2=scam.nextInt();
+    System.out.println("enter namber 2:");
+    final int num1=scam.nextInt();
+    if (num1>num2)
+    {
+      System.out.println(num2);
+    }
+    else
+    {
+      System.out.println(num1);
+    }
+  }
+} */
+
+
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(String[] args)
+  {
+    final Scanner scam = new Scanner(System.in);
+    System.out.println("enter letter 1:");
+    String letter1=scan.next();
+    System.out.println("enter letter 2:");
+    String letter2=scan.next();
+    System.out.println("enter distance 1:");
+    int distance1=scam.nextInt();
+    System.out.println("enter distance 2:");
+    int distance2=scam.nextInt();
+    System.out.println("enter speed 1:");
+    int speed1=scam.nextInt();
+    System.out.println("enter speed 2:");
+    int speed2=scam.nextInt();
+    double time1=(distance1/speed1);
+    double time2=(distance2/speed2);
+    if (time1>=time2)
+    {
+      System.out.println(letter2);
+    }
+    else
+    {
+      System.out.println(letter1);
+    }  
+  }
+} */
+
+    
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(String[] args)
+  {
+    final Scanner scam = new Scanner(System.in);
+    System.out.println("enter grade 1:");
+    int grade1 =scam.nextInt();
+    System.out.println("enter grade 2:");
+    int grade2=scam.nextInt();
+    System.out.println("enter grade 3:");
+    int grade3=scam.nextInt();
+    System.out.println(grade1+grade2+grade3/3);
+  }
+} */
+
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(String[] args)
+  {
+    final Scanner scam = new Scanner(System.in);
+    System.out.println("enter number 1:");
+    int num1 =scam.nextInt();
+    System.out.println("enter number 2:");
+    int num2 =scam.nextInt();
+    System.out.println("enter number 3:");
+    int num3 =scam.nextInt();
+    if ((num1<num2) && (num1<num3))
+      System.out.println(num1);
+    if ((num2<num3)&&(num2<num1))
+      System.out.println(num2);
+    if ((num3<num1)&&(num3<num2))
+      System.out.println(num3);
+  }
+} */
+
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(final String[] args)
+  {
+    final Scanner scan = new Scanner(System.in);
+    System.out.println("enter how math creative you buy:");
+    int creative =scan.nextInt();
+    int Yehidot = creative%10;
+    int Dozent = creative/10;
+    if (creative>108)
+    {
+      System.out.println("you can't buy creative");
+    }
+    if (creative<54)
+    {
+      System.out.println(Dozent*10+Yehidot*1.2);
+    }
+    if (creative>=54 && creative<108)
+    {
+      int creative1=(creative-54);
+      int Yehidot1 = creative1%10;
+      int Dozent1 = creative1/10;
+      System.out.println(50+(Dozent1*10)+(Yehidot1*1.2));
+    }
+    if (creative==108)
+    {
+    System.out.println(100);
+    }
+  }
+} */
+
+
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(final String[] args)
+  {
+    final Scanner scan = new Scanner(System.in);  
+    System.out.println("enter your name:");
+    String name1=scan.next();
+    System.out.println("enter your name school:");
+    String name_School=scan.next();
+    System.out.println("enter your number of subjects study is:");
+    String study=scan.next();
+            System.out.println("my name is "+name1+",my school is "+name_School+",The number of subjects l study is "+study);
+
+  }
+} */
+      
+/* import java.util.Scanner;
+class Main
+{
+  public static void main(final String[] args)
+  {
+    final Scanner scan = new Scanner(System.in);
+   System.out.println("enter a three-digit number");
+    int num =scan.nextInt();
+    int Yehidot = num%10;
+    int Dozent1 = num/10;
+    int Dozent= Dozent1%10;
+    int Hundreds = num/100;
+    System.out.println(Yehidot+Dozent+Hundreds);
+  }
+*/
