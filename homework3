@@ -141,11 +141,15 @@ class Main
     {
       System.out.println("you can't buy creative");
     }
-    if (creative<54)
+    if (creative<=49)
     {
       System.out.println(Dozent*10+Yehidot*1.2);
     }
-    if (creative>=54 && creative<108)
+    if ((creative>49)&&(creative<55));
+    {
+      System.out.println(50);
+    }
+    if (creative>54 && creative<108)
     {
       int creative1=(creative-54);
       int Yehidot1 = creative1%10;
@@ -157,7 +161,7 @@ class Main
     System.out.println(100);
     }
   }
-} */
+} 
 
 
 /* import java.util.Scanner;
