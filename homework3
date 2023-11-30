@@ -181,18 +181,23 @@ class Main
   }
 } */
       
-/* import java.util.Scanner;
+import java.util.Scanner;
 class Main
 {
   public static void main(final String[] args)
   {
     final Scanner scan = new Scanner(System.in);
-   System.out.println("enter a three-digit number");
+    System.out.println("enter a three-digit number");
     int num =scan.nextInt();
     int Yehidot = num%10;
     int Dozent1 = num/10;
     int Dozent= Dozent1%10;
     int Hundreds = num/100;
     System.out.println(Yehidot+Dozent+Hundreds);
+    int num1=(Yehidot+Dozent+Hundreds);
+    if (num1%2==0)
+      System.out.println("the number is even");
+    else
+      System.out.println("the number is odd");
   }
-*/
+}
